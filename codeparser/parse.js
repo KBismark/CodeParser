@@ -902,6 +902,33 @@ function Parser(themenum){
 
         i++;
     };
+    var copppie=`<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clipboard" width="18" height="15" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
+  <rect x="9" y="3" width="6" height="4" rx="2" />
+</svg>`, maxicon=`
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrows-maximize" width="18" height="15" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <polyline points="16 4 20 4 20 8" />
+  <line x1="14" y1="10" x2="20" y2="4" />
+  <polyline points="8 20 4 20 4 16" />
+  <line x1="4" y1="20" x2="10" y2="14" />
+  <polyline points="16 20 20 20 20 16" />
+  <line x1="14" y1="14" x2="20" y2="20" />
+  <polyline points="8 4 4 4 4 8" />
+  <line x1="4" y1="4" x2="10" y2="10" />
+</svg>`, minicon=`
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrows-minimize" width="18" height="15" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <polyline points="5 9 9 9 9 5" />
+  <line x1="3" y1="3" x2="9" y2="9" />
+  <polyline points="5 15 9 15 9 19" />
+  <line x1="3" y1="21" x2="9" y2="15" />
+  <polyline points="19 9 15 9 15 5" />
+  <line x1="15" y1="9" x2="21" y2="3" />
+  <polyline points="19 15 15 15 15 19" />
+  <line x1="15" y1="15" x2="21" y2="21" />
+</svg>`;
     function copyLikes(n){
         return '<button class="mdcopybut md-xzcpys1-xc" id="md-xzcpys1-xc">'+(n===1?(copppie+'</button><span class="mdcopytip md-ljcpy0i-zc" id="md-ljcpy0i-zc">Copied</span>'):(maxicon+'</button>'));
     };
